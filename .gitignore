@@ -1,0 +1,17 @@
+server:
+  address: 
+  port: 8889
+spring:
+  application:
+    name: abc-configserver
+  cloud:
+    config:
+      server:
+        git:
+          uri:  https://github.com/ksatishkumarkulkarni/config-server.git
+          refresh-rate: 180
+  security:
+    user:
+      name: ksatishkumarkulkarni
+      password: Gr48ky_Kings
+      
